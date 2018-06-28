@@ -110,7 +110,7 @@
 
 img.article-image {
   width: 100%;
-  margin-left: 0vmax;
+  margin-left: auto;
   margin-right: auto;
   height: auto;
 }

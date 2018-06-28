@@ -1,0 +1,44 @@
+ 
+
+<% include partials/header %>
+
+  
+    <style scoped>
+      
+        form {
+            width: 400px;
+            margin: 100px auto;
+            border: 1px solid #ccc;
+            padding: 100px;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+
+    <h1>
+        <%= title %>
+    </h1>
+    <form method="POST" action="https://formspree.io/vs16419@gmail.com">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="Name" name="Name" placeholder="your Name">
+          <label class="mdl-textfield__label" for="name"></label>
+      </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="email" name="email" placeholder="your email">
+            <label class="mdl-textfield__label" for="email"></label>
+        </div>
+
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <textarea class="mdl-textfield__input" type="text" rows="5" id="message" name="message" placeholder="your message"></textarea>
+
+            <label class="mdl-textfield__label" for="message"></label>
+        </div>
+        <br>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+            Submit
+        </button>
+    </form>
+
+    <% include partials/footer %>
+

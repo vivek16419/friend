@@ -1,6 +1,6 @@
 .portfolio-header {
   position: relative;
-  background-image: url(images/portfolio-background.jpg);
+  background-image: url(images/header-bg.jpg);
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -110,8 +110,6 @@
 
 img.article-image {
   width: 100%;
-  margin-left: 0vmax;
-  margin-right: auto;
   height: auto;
 }
 
